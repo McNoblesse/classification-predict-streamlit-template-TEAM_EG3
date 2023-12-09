@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+
+st.image('GreenRising.jpg', width= 150)
+
 st.header("EDA PROCESS 🚧")
 st.sidebar.markdown("EDA Process🚧")
 

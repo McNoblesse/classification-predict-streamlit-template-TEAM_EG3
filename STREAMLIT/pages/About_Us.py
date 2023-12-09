@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.image('GreenRising.jpg', width= 150)
 st.header("About Us 🎈")
 st.sidebar.markdown("About Us🎈")
 st.divider()
@@ -31,30 +32,24 @@ with st.container():
         st.image('Bakwe.jpg', width= 200)
         st.subheader("Bakwe Chokoe")
         st.caption("Project Manager")
-
+st.write("")
+st.write("")
+st.write("")
 with st.container():
     col4, col5, col6 = st.columns(3)
 
     with col4:
+        st.image('Josh.jpg', width= 200)
+        st.subheader("Joshua Oluwole")
+        st.caption("Software Engineer")
+         
+    with col5:
         st.image('Fabian.png', width= 200)
         st.subheader("Fabian Dafat")
         st.caption("Data Engineer")
 
-    with col5:
-        st.image('Josh.jpg', width= 200)
-        st.subheader("Joshua Oluwole")
-        st.caption("Software Engineer")
-            
+   
     with col6:
-        #st.image('Kemi.jpg', width= 200)
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
-        st.subheader("")
+        st.image('kemi.png', width= 200)
         st.subheader("Data Specialist")
         st.caption("Data Specialist")

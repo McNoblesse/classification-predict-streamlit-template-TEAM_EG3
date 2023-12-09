@@ -34,9 +34,9 @@ st.divider()
 col1, col2 = st.columns(2)
 
 with col1:
-    st.caption("Explore our EDA Report for in-depth insights.")
+    st.subheader("Explore our EDA Report for in-depth insights.")
     st.link_button("EXPLORE EDA", "http://localhost:8501/EDA_Process")
 
 with col2:
-    st.caption("See the performance of our models on the Model Test page.")
+    st.subheader("See the performance of our models on the Model Test page.")
     st.link_button("Test Model", "http://localhost:8501/Test_model")

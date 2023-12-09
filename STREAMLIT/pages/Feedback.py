@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+
+st.image('GreenRising.jpg', width= 150)
 st.header("Feedback 💌")
 st.sidebar.markdown("Feedback 💌")
 
