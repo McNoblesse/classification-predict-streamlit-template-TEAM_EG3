@@ -35,12 +35,12 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Explore our EDA Report for in-depth insights.")
-    st.link_button("EXPLORE EDA", "http://localhost:8501/EDA_Process")
-    #st.markdown("<a href='http://localhost:8501/EDA_Process'><button>EXPLORE EDA</button></a>", unsafe_allow_html=True)
+    #st.link_button("EXPLORE EDA", "http://localhost:8501/EDA_Process")
+    st.markdown("<a href='http://localhost:8501/EDA_Process'><button>EXPLORE EDA</button></a>", unsafe_allow_html=True)
 
 with col2:
     st.subheader("See the performance of our models on the Model Test page.")
-    st.link_button("Test Model", "http://localhost:8501/Test_model")
-    #st.markdown("<a href='http://localhost:8501/Test_model'><button>Test Model</button></a>", unsafe_allow_html=True)
+    #st.link_button("Test Model", "http://localhost:8501/Test_model")
+    st.markdown("<a href='http://localhost:8501/Test_model'><button>Test Model</button></a>", unsafe_allow_html=True)
     
 
