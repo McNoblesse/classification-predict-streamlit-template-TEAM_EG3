@@ -1,1 +1,3 @@
-﻿GreenRising
+streamlit
+pandas
+numpy
